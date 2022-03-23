@@ -176,9 +176,10 @@ public class Cancion {
 		return canciones[siguiente].titulo;
 	}
 	
-	@Override
-	public String toString() {
-		return "Cancion [titulo=" + titulo + ", autor=" + grupo + ", duracion=" + duracion + ", sonando=" + sonando
-				+ "]";
+	@Override 
+	public String toString() { 
+	return "Datos de la canción [titulo=" + titulo + ", autor=" +  grupo + ", duracion=" + duracion + ", sonando=" + sonando 
+	+ "]"; 
 	}
+
 }
